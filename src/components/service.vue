@@ -54,7 +54,7 @@
               <p>cette formation consiste à maitriser la communication interne et externe de l’entreprise telle que la
                 formation de rédaction d’un rapport, d’un communiqué, mailing, et les dossiers de candidature pour une
                 demande d’emploi …</p>
-              <a href="developpement.php" class="btn-reservation">en savoir plus</a>
+              <router-Link to="/developpement" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
                 maitriser ces langues, parce que l’anglais est la première langue la plus utilisé dans le monde entier
                 surtout dans le marché du travail et le français est la langue d’enseignement et l’une des langues
                 officielles de Madagascar. </p>
-              <a href="langue.php" class="btn-reservation">en savoir plus</a>
+                <router-Link to="/langue" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
               <h4 class="titre">Module de formation en informatique bureautique </h4>
               <p>il s’agit d’une formation basée sur le software tel que le Microsoft Word, Microsoft Excel, Microsoft
                 Powerpoint et des astuces sur la maintenance de l’ordinateur pour les niveaux basique et avancé.</p>
-              <a href="infobureau.php" class="btn-reservation">en savoir plus</a>
+                <router-Link to="/bureautique" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>
@@ -89,12 +89,12 @@
         <div class="">
           <div class="content">
             <div>
-              <h4 class="titre">Programmation informatique </h4>
+              <h4 class="titre">Fromation en Programmation informatique </h4>
               <p>avoir une connaissance dans le monde de la technologie était auparavant facultative, mais à nos jours une
                 personne ignorante de l’informatique est semblable à une personne analphabète. Il s’agit de l’ensemble de
                 démarches écrites qui seront ensuite réalisées par un ordinateur. Programmer comporte donc à écrire des
                 algorithmes informatiques. </p>
-              <a href="infoprog.php" class="btn-reservation">en savoir plus</a>
+              <router-Link to="/programmation" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
               <h4 class="titre">formation en Entreprenariat</h4>
               <p>cette formation est dédiée aux porteurs de projet, aux entrepreneurs, et aux particuliers qui veulent
                 accroitre leur niveau de compétence professionnel</p>
-              <a href="entrepreneur.php" class="btn-reservation">en savoir plus</a>
+              <router-Link to="/entrepreneur" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
             <div>
               <h4 class="titre">Developpement d'application sur mesure</h4>
               <p>Découvrez comment nous pouvons transformer votre vision en une application impressionnante. Contactez-nous pour discuter de votre projet et laissez-nous vous guider vers le succès numérique.</p>
-              <a href="entrepreneur.php" class="btn-reservation">en savoir plus</a>
+              <router-Link to="/dev" class="btn-reservation">en savoir plus</router-Link>
             </div>
           </div>
         </div>

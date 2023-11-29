@@ -18,7 +18,7 @@
                     </ol>
                     <p class="mt-4 mb-3" style="font-size: 15px;">Reflet HQD est une startup de prestation de service, qui sont la
                         formation professionnelle et le développement informatique</p>
-                    <a href="services.php" class="btn-reservation mt-5">retour</a>
+                    <router-Link to="/service" class="btn-reservation mt-5">retour</router-Link >
                 </div>
             </div>
 

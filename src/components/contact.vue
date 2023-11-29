@@ -14,8 +14,8 @@
                     <div>
                         <ul>
                             <li>
-                                <a href="index.php" class="btn btn-danger text-white" style="font-size: 20px;">revenir à
-                                    l'accueil</a>
+                                <router-Link  to="/" class="btn btn-danger text-white mt-3" style="font-size: 20px;">revenir à
+                                    l'accueil</router-Link >
                             </li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@ export default {
 <style scoped>
  #contact {
         padding: 0 10%;
-        margin-bottom: 50px;
+        margin-bottom: 120px;
         height: 90vh;
     }
 

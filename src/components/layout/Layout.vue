@@ -5,10 +5,10 @@
             <img src="../../images/logo.jpg" alt="" width="40" height="40">
         </div>
         <ul class="menu" style="margin-bottom: 0;">
-            <li><router-Link to="/" class="p-3">Acceuil</router-Link></li>
-            <li><router-Link to="/about" class="p-3">à propos</router-Link></li>
-            <li><router-Link to="/service" class="p-3">nos services</router-Link></li>
-            <li><router-Link to="/contact" class="p-3">contact</router-Link></li>
+            <li><router-Link to="/" class="p-3 bg-red-700 text-white">Acceuil</router-Link></li>
+            <li><router-Link to="/about" class="p-3 hover:bg-red-700 hover:text-white transition-all">à propos</router-Link></li>
+            <li><router-Link to="/service" class="p-3 hover:bg-red-700 hover:text-white">nos services</router-Link></li>
+            <li><router-Link to="/contact" class="p-3 hover:bg-red-700 hover:text-white">contact</router-Link></li>
         </ul>
         <div class="responsive-menu"></div>
     </header>
@@ -17,11 +17,11 @@
         <h4>THE EXCELENCE <span class="text-danger"> IS OUR DUTY</span></h4>
         <p>reussite perceverance polyvalence excelence </p>
         <p>Nous sommes là pour vous guider dans un monde meilleur</p>
-        <a href="contact.php" class="btn-reservation home-btn">nous contacter</a>
+        <router-Link to="/contact" class="btn-reservation home-btn">nous contacter</router-Link>
         <div class="find_trip">
-            <a href="propos.php" class="bout">historiques</a>
-            <a href="sesmission.php" class="bout">nos missions</a>
-            <a href="sesvaleur.php" class="bout">nos valeurs</a>
+            <router-Link to="/about" class="bout">historiques</router-Link>
+            <router-Link to="/missions" class="bout">nos missions</router-Link>
+            <router-Link to="/valeur" class="bout">nos valeurs</router-Link>
         </div>
     </section>
 

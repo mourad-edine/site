@@ -70,6 +70,8 @@
                             <p>Des Entreprises, startups et professionnels dans ce domaine sont prêt à vous rencontrer et
                                 exposer ce qu'ils font, également, partager leurs expériences, surtout entendre vos points
                                 de vue et conseils.</p>
+                                <br>
+                            
                             <a target="_blank"
                                 href="https://www.facebook.com/ongjademadagascar/posts/pfbid02U1E1qq6CXY6v73BC78Yzh54iNgKpk8S6XbPtFiA6J1BNRY5xNoogY9jWJG2RB7U8l">Lire
                                 Plus</a>
@@ -83,9 +85,10 @@
                     <div class="content">
                         <div>
                             <h4>Rendez vous des entrepreneurs</h4>
-                            <p>là où tout les entrepreneurs se donnent rendez vous pour faire des echanges que ce soit , en
-                                matière d'experience ou de parler de pla futur</p>
-                            <a target="_blank"
+                            <p>là où tout les entrepreneurs se donnent rendez vous pour faire des echanges.</p>
+                            <br>
+                            <br>
+                            <a class="mt-5" target="_blank"
                                 href="https://www.facebook.com/permalink.php?story_fbid=pfbid05mtfvMb7dPrpAD9SBRkzYKwNsgFk43LRtLhiyQdMHStYDEwUxQUCHuZSFGniTTazl&id=100064422294848">Lire
                                 Plus</a>
                         </div>

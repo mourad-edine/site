@@ -1,11 +1,11 @@
 <template>
     <header>
         <div class="flex">
-            <router-Link to="/" class="mt-2">RefleHQD</router-Link>
+            <p to="/" class="mt-2">RefleHQD</p>
             <img src="../../images/logo.jpg" alt="" width="40" height="40">
         </div>
         <ul class="menu" style="margin-bottom: 0;">
-            <li><router-Link to="/" class="p-3 bg-red-700 text-white">Acceuil</router-Link></li>
+            <li><router-Link to="/" class="p-3 hover:bg-red-700 hover:text-white">Acceuil</router-Link></li>
             <li><router-Link to="/about" class="p-3 hover:bg-red-700 hover:text-white transition-all">à propos</router-Link></li>
             <li><router-Link to="/service" class="p-3 hover:bg-red-700 hover:text-white">nos services</router-Link></li>
             <li><router-Link to="/contact" class="p-3 hover:bg-red-700 hover:text-white">contact</router-Link></li>
@@ -14,14 +14,14 @@
     </header>
     <!-- acceuil section -->
     <section id="home">
-        <h4>THE EXCELENCE <span class="text-danger"> IS OUR DUTY</span></h4>
+        <h4>THE EXCELENCE <span class="text-red-700"> IS OUR DUTY</span></h4>
         <p>reussite perceverance polyvalence excelence </p>
         <p>Nous sommes là pour vous guider dans un monde meilleur</p>
         <router-Link to="/contact" class="btn-reservation home-btn">nous contacter</router-Link>
-        <div class="find_trip">
-            <router-Link to="/about" class="bout">historiques</router-Link>
-            <router-Link to="/missions" class="bout">nos missions</router-Link>
-            <router-Link to="/valeur" class="bout">nos valeurs</router-Link>
+        <div class="find_trip flex justify-evenly text-white">
+            <router-Link to="/about" class="hover:text-white p-1 hover:bg-red-700">historiques</router-Link>
+            <router-Link to="/missions" class="hover:text-white p-1 hover:bg-red-700">nos missions</router-Link>
+            <router-Link to="/valeur" class="hover:text-white p-1 hover:bg-red-700 transition-all">nos valeurs</router-Link>
         </div>
     </section>
 
@@ -85,14 +85,11 @@ export default {
 
 
 <style>
-.bout {
-
-    justify-content: center;
-
+a.router-link-active{
+    background: #b91c1c;
     color: white;
-    font-size: 14px;
-    margin: 4px;
 }
+
 
 .titre {
     font-size: 18px;
@@ -361,7 +358,7 @@ header .logo a span {
 
     .find_trip {
         width: 100%;
-        height: 200px;
+        height: 80px;
     }
 
     .home-btn {

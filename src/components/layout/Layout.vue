@@ -1,23 +1,33 @@
 <template>
-    <header>
+    <header class="block sm:flex">
         <div class="flex">
             <p to="/" class="mt-2">RefleHQD</p>
             <img src="../../images/logo.jpg" alt="" width="40" height="40">
         </div>
-        <ul class="menu" style="margin-bottom: 0;">
-            <li><router-Link to="/" class="p-3 hover:bg-red-700 hover:text-white">Acceuil</router-Link></li>
-            <li><router-Link to="/about" class="p-3 hover:bg-red-700 hover:text-white transition-all">à propos</router-Link></li>
-            <li><router-Link to="/service" class="p-3 hover:bg-red-700 hover:text-white">nos services</router-Link></li>
-            <li><router-Link to="/contact" class="p-3 hover:bg-red-700 hover:text-white">contact</router-Link></li>
-        </ul>
-        <div class="responsive-menu"></div>
+        <div class="flex">
+            <div>
+                <router-Link to="/" class="p-3 hover:bg-red-700 hover:text-white">Acceuil</router-Link>
+            </div>
+            <div>
+                <router-Link to="/about" class="p-3 hover:bg-red-700 hover:text-white transition-all">à propos</router-Link>
+            </div>
+            <div>
+                <router-Link to="/service" class="p-3 hover:bg-red-700 hover:text-white">nos services</router-Link>
+            </div>
+            <div>
+                <router-Link to="/contact" class="p-3 hover:bg-red-700 hover:text-white">contact</router-Link>
+            </div>
+        </div>
     </header>
+
+  
     <!-- acceuil section -->
     <section id="home">
         <h4>THE EXCELENCE <span class="text-red-700"> IS OUR DUTY</span></h4>
         <p>reussite perceverance polyvalence excelence </p>
         <p>Nous sommes là pour vous guider dans un monde meilleur</p>
-        <router-Link to="/contact" class="btn-reservation home-btn">nous contacter</router-Link>
+        <router-Link to="/contact" class="border-1 border-red-300 text-red-300 p-2 mt-5 hover:text-red-400">nous
+            contacter</router-Link>
         <div class="find_trip flex justify-evenly text-white">
             <router-Link to="/about" class="hover:text-white p-1 hover:bg-red-700">historiques</router-Link>
             <router-Link to="/missions" class="hover:text-white p-1 hover:bg-red-700">nos missions</router-Link>
@@ -85,7 +95,7 @@ export default {
 
 
 <style>
-a.router-link-active{
+a.router-link-active {
     background: #b91c1c;
     color: white;
 }
@@ -116,7 +126,6 @@ a {
 
 body {
     background-color: #f8fafc;
-    font-family: "montserrat";
 }
 
 section {
@@ -160,11 +169,11 @@ header .logo a span {
 
 .btn-reservation {
     color: #f87171;
-    font-size: 14px;
     border: 1px solid #f87171;
     padding: 5px 20px;
     transition: 0.5s;
     font-weight: bolder;
+    margin-top: 10px;
 }
 
 .btn-reservation:hover {
@@ -527,7 +536,8 @@ header .logo a span {
 *:before,
 *:after {
     box-sizing: border-box;
-}</style>
+}
+</style>
 
 
 

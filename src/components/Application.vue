@@ -16,9 +16,9 @@
                         <li>Developpement d'application web</li>
 
                     </ol>
-                    <p class="mt-4 mb-3" style="font-size: 15px;">Reflet HQD est une startup de prestation de service, qui sont la
+                    <p class="mt-4 mb-3">Reflet HQD est une startup de prestation de service, qui sont la
                         formation professionnelle et le développement informatique</p>
-                    <router-Link to="/service" class="btn-reservation mt-5">retour</router-Link >
+                    <router-Link to="/service" class="rounded border-1 border-red-700 text-red-700 bg-white p-1 mt-5 hover:text-red-800">retour</router-Link >
                 </div>
             </div>
 

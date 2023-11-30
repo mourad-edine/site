@@ -5,7 +5,7 @@
             <h1 class="title">Historiques</h1>
             <div class="img-desc">
                 <div class="">
-                    <h4>L’entrepreneuriat est un processus de création d’une entreprise pour chercher des opportunités dans
+                    <h4 style="font-size: 18px;">L’entrepreneuriat est un processus de création d’une entreprise pour chercher des opportunités dans
                         un marché potentiel. En voyant que son business fonctionne bien et en constatant que le marché de la
                         formation professionnelle est encore un marché libre d’accès, <span class="text-danger">Eric Florent
                             RAHARINIRINA</span> a commencé à améliorer ses canaux de communication par des prospections des
@@ -22,16 +22,16 @@
         </section>
 
         <section id="popular-destination">
-            <h1 class="title">évènement marquant</h1>
+            <h1 class="title">Evenement marquant</h1>
             <div class="wrapper option-1 option-1-1">
                 <ol class="somme">
                     <li class="somme__item m-4">
-                        <h3 class="somme__title">évenement 1</h3>
+                        <h3 class="somme__title">Evenement 1</h3>
                         <p class="somme__desc">En 2019, Reflet HQD fait un don de logiciel de gestion de paiement de
                             cotisation mensuelle à l’Aumônerie Protestante Universitaire </p>
                     </li>
                     <li class="somme__item m-4">
-                        <h3 class="somme__title">évenement 2</h3>
+                        <h3 class="somme__title">Evenement 2</h3>
                         <p class="somme__desc">En 2020, il développe un logiciel de gestion de clinique tout en un « CMS »
                             ou Clinique Manage Système, du Clinique Hugney Toamasina</p>
                     </li>

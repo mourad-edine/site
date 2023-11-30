@@ -10,23 +10,23 @@
                         démarrer votre première entreprise ou un chef d'entreprise chevronné en quête de nouvelles
                         perspectives, nos formations en entrepreneuriat offrent un terrain fertile pour faire germer vos
                         idées.</h4>
-                        <h4 class="">cette formation est dédiée aux porteurs de projet, aux entrepreneurs, et aux
-                            particuliers qui veulent accroitre leur niveau de compétence professionnel. Dans ce module les
-                            formations proposées sont : </h4>
-                            <ol class="mt-4" style="font-size: 20px; margin-left: 20px;">
-                                <li>Le montage de projet</li>
-                                <li>Établissement d’un business plan</li>
-                                <li>Planification du chronogramme d’activité</li>
-                                <li><span class="text-danger">Généralité en entreprenariat</span> : cela concerne le monde
-                                    de l’entreprise en générale, les moyens pour surmonter les « vices cachés » de
-                                    l’entreprenariat, par exemple, formation en leadership, sur le management d’entreprise…
-                                </li>
-                                <li>Sans oublier les formations en audit, suivie et évaluation des projets</li>
+                    <h4 class="">cette formation est dédiée aux porteurs de projet, aux entrepreneurs, et aux
+                        particuliers qui veulent accroitre leur niveau de compétence professionnel. Dans ce module les
+                        formations proposées sont : </h4>
+                    <ol class="mt-4" style="font-size: 20px; margin-left: 20px;">
+                        <li>Le montage de projet</li>
+                        <li>Établissement d’un business plan</li>
+                        <li>Planification du chronogramme d’activité</li>
+                        <li><span class="text-danger">Généralité en entreprenariat</span> : cela concerne le monde
+                            de l’entreprise en générale, les moyens pour surmonter les « vices cachés » de
+                            l’entreprenariat, par exemple, formation en leadership, sur le management d’entreprise…
+                        </li>
+                        <li>Sans oublier les formations en audit, suivie et évaluation des projets</li>
 
-                            </ol>
-                            <p class="m-5" style="font-size: 15px;">Reflet HQD est une startup de prestation de service, qui
-                                sont la formation professionnelle et le développement informatique</p>
-                            <router-Link  to="/service" class="btn-reservation">retour</router-Link >
+                    </ol>
+                    <p class="m-5" style="font-size: 15px;">Reflet HQD est une startup de prestation de service, qui
+                        sont la formation professionnelle et le développement informatique</p>
+                    <router-Link to="/service" class="rounded border-1 border-red-700 text-red-700 bg-white p-1 mt-5 hover:text-red-800">retour</router-Link>
                 </div>
             </div>
 

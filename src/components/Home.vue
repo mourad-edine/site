@@ -11,7 +11,7 @@
           <div>
             <ul>
               <li>
-                <a href="#" class="btn btn-danger text-white" style="font-size: 20px;">voir plus</a>
+                <a href="#" class="btn btn-danger text-white mt-3">voir plus</a>
               </li>
             </ul>
           </div>

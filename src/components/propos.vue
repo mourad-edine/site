@@ -5,13 +5,13 @@
             <h1 class="title">Historiques</h1>
             <div class="img-desc">
                 <div class="">
-                    <h4 style="font-size: 18px;">L’entrepreneuriat est un processus de création d’une entreprise pour chercher des opportunités dans
+                    <h4>L’entrepreneuriat est un processus de création d’une entreprise pour chercher des opportunités dans
                         un marché potentiel. En voyant que son business fonctionne bien et en constatant que le marché de la
                         formation professionnelle est encore un marché libre d’accès, <span class="text-danger">Eric Florent
                             RAHARINIRINA</span> a commencé à améliorer ses canaux de communication par des prospections des
                         clients et a formé une équipe pour Reflet en novembre 2019. Un Start up de formation professionnelle
                         en mettant en premier place la formation des langues étrangères, </h4>
-                    <p style="font-size: 18px;"><span class="text-danger">l’anglais</span> et <span class="text-danger">le
+                    <p><span class="text-danger">l’anglais</span> et <span class="text-danger">le
                             français</span> , qui sont des moyens de communication très important
                         dans le monde professionnel. Grace à son parcours universitaire, diplômé en ingénierie
                         informatique, il a ajouté à son offre le développement informatique et renommé Reflet en «

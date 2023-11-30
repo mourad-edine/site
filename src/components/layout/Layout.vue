@@ -200,40 +200,13 @@ section {
     margin-top: 50px;
 }
 
-.header {
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    padding: 0 5%;
-    border-bottom: solid red;
 
-}
 
-header .logo a span {
-    color: black;
-}
 
-.menu {
-    display: flex;
-    align-items: center;
-}
 
-.menu li {
-    margin: 0 15px;
-    list-style-type: none;
-}
 
-.menu li a {
-    color: black;
-    font-size: 14px;
-}
+
+
 
 .btn-reservation {
     color: #f87171;
@@ -445,72 +418,13 @@ header .logo a span {
     /*Responsive A propos*/
 
     /*Responsive menu*/
-    .responsive-menu {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        cursor: pointer;
-    }
 
-    .responsive-menu::after {
-        position: absolute;
-        content: "";
-        height: 3px;
-        background-color: red;
-        width: 28px;
-        box-shadow: 0 10px 0 red;
-        transform: translateY(-10px);
-        transition: 0.5s;
-    }
 
-    .responsive-menu.active::after {
-        box-shadow: 0 0 0 red;
-        transform: rotate(45deg);
-    }
 
-    .responsive-menu::before {
-        position: absolute;
-        content: "";
-        height: 3px;
-        background-color: red;
-        width: 28px;
-        transform: translateY(10px);
-        transition: 0.5s;
-    }
 
-    .responsive-menu.active::before {
-        transform: rotate(-45deg);
-    }
 
-    header .menu.responsive {
-        display: flex;
-        position: relative;
-        top: -110px;
-        right: 0;
-        flex-direction: column;
-        background-color: #222;
-        align-items: unset;
-        animation: animate-menu .5s forwards;
-    }
 
-    header .menu.responsive li {
-        margin: 20px;
-        width: 100px;
-        padding-left: 20px;
-    }
 
-    @keyframes animate-menu {
-        0% {
-            transform: translateY(0);
-        }
-
-        100% {
-            transform: translateY(100%);
-        }
-    }
 }
 
 

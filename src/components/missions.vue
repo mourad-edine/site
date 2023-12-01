@@ -2,7 +2,7 @@
     <Layout>
         <section id="a-propos">
             <h1 class="title">Nos missions</h1>
-            <div class="img-desc">
+            <div class="img-desc mb-72">
                 <div class="">
                     <h3>Une mission est un pouvoir, une charge donnés à une personne morale ou personne physique d’accomplir
                         une chose définie. Une mission peut être aussi un devoir essentiel qu’une personne se propose sur

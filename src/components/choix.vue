@@ -9,8 +9,8 @@
                             <img src="../images/logo.jpg" alt="" class="w-16 h-16 m-2">
                         </div>
                         <div class="ml-5">
-                            <p class="text-red-700 font-bold">Formation professionnelle</p>
-                            <p class=" bg-red-700 text-white rounded p-2 w-20 ml-10">Voir plus</p>
+                            <p class="text-red-700 font-bold mb-4">Formation professionnelle</p>
+                            <router-Link to="/service" class=" bg-red-700 text-white rounded p-2 w-20 ml-10">Voir plus</router-Link>
                         </div>
                     </div>
                     <div class="flex sm:ml-20 shadow-md sm:w-96 h-24">
@@ -18,8 +18,8 @@
                             <img src="../images/logo.jpg" alt="" class="w-16 h-16 m-2">
                         </div>
                         <div class="ml-5">
-                            <p class="text-red-700 font-bold mt-1">Developpement d'application</p>
-                            <p class=" bg-red-700 text-white rounded p-2 w-20 ml-10">Voir plus</p>
+                            <p class="text-red-700 font-bold mt-1 mb-4">Developpement d'application</p>
+                            <router-Link to="/dev" class=" bg-red-700 text-white rounded p-2 w-20 ml-10  mt-3">Voir plus</router-Link>
                         </div>
                     </div>
                 </div>

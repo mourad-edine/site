@@ -54,7 +54,7 @@
           </div>
           <div class="">
             <router-Link 
-             to="/langue" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+             to="/langue" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</router-Link >
           </div>
         </div>
 
@@ -65,18 +65,18 @@
           </div>
           <div class="">
             <router-Link 
-             to="/programmation" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+             to="/programmation" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</router-Link >
           </div>
         </div>
 
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
-          <img class="w-full" src="../images/wor.jpg" alt="Sunset in the mountains" style="height: 256px;">
+          <img class="w-full" src="../images/w.jpg" alt="Sunset in the mountains" style="height: 256px;">
           <div class="px-3 py-1">
             <div class="font-semibold text-xl">Cours en informatique bureautique</div>
           </div>
           <div class="">
             <router-Link 
-             to="/bureautique" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+             to="/bureautique" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</router-Link >
           </div>
         </div>
 
@@ -87,18 +87,18 @@
           </div>
           <div class="">
             <router-Link 
-             to="/developpement" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+             to="/developpement" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</router-Link >
           </div>
         </div>
 
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
           <img class="w-full" src="../images/start.jpg" alt="Sunset in the mountains">
           <div class="px-3 py-1">
-            <div class="font-semibold text-xl">formation en Entreprenariat</div>
+            <div class="font-semibold text-xl">Formation en Entreprenariat</div>
           </div>
           <div class="">
             <router-Link 
-             to="/entrepreneur" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+             to="/entrepreneur" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</router-Link >
           </div>
         </div>
       </div>

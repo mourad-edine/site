@@ -70,7 +70,7 @@
             <div class="sm:grid grid-cols-2">
                 <div class="sm:flex sm:ml-20 shadow-md">
                     <div class="w-20 h-20">
-                        <img src="../images/logo.jpg" alt="" class="w-16 h-16 m-2">
+                        <img src="../images/app.png" alt="" class="w-16 sm:h-12 m-2">
                     </div>
                     <div class="ml-5 mt-2 mb-2">
                         <p class="text-red-700 font-bold">Creation d'un logiciel de payement</p>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="sm:flex sm:ml-20 shadow-md">
                     <div class="w-20 h-20">
-                        <img src="../images/logo-jade.jpg" alt="" class="w-16 h-16 m-2">
+                        <img src="../images/app.png" alt="" class="w-16 sm:h-12 m-2">
                     </div>
                     <div class="ml-5 mt-2 mb-2">
                         <p class="text-red-700 font-bold">Creation d'un logiciel de gestion de clinique</p>
@@ -91,7 +91,7 @@
 
                 <div class="sm:flex sm:ml-20 shadow-md">
                     <div class="w-20 h-20">
-                        <img src="../images/logo-jade.jpg" alt="" class="w-16 h-16 m-2">
+                        <img src="../images/web.png" alt="" class="w-16 sm:h-12 m-2">
                     </div>
                     <div class="ml-5 mt-2 mb-2">
                         <p class="text-red-700 font-bold">Creation de site internet</p>
@@ -102,7 +102,7 @@
 
                 <div class="sm:flex sm:ml-20 shadow-md">
                     <div class="w-20 h-20">
-                        <img src="../images/logo-jade.jpg" alt="" class="w-16 h-16 m-2">
+                        <img src="../images/benevol.png" alt="" class="w-16 h-16 sm:h-12 m-2">
                     </div>
                     <div class="ml-5 mt-2 mb-2">
                         <p class="text-red-700 font-bold">Bénévolat</p>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="sm:flex sm:ml-20 shadow-md">
                     <div class="w-20 h-20">
-                        <img src="../images/logo-jade.jpg" alt="" class="w-16 h-16 m-2">
+                        <img src="../images/logo-jade.jpg" alt="" class="w-16 sm:h-12 m-2">
                     </div>
                     <div class="ml-5 mt-2 mb-2">
                         <p class="text-red-700 font-bold">Open days</p>

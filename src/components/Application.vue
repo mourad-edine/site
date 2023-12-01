@@ -15,7 +15,7 @@
                         offrir des solutions sur mesure, quels que soient vos besoins ou votre domaine d'activité.
                     </h3>
                     <p>voici les 3 pricipaux types d'applications que nous pouvons vous fournir : </p>
-                    <ol class="mt-4 mx-4" style="font-size: 13px;">
+                    <ol class="mt-4 mx-4">
                         <li>Developpement d'application desktop.</li>
                         <li>Developpement d'application mobile.</li>
                         <li>Developpement d'application web.</li>

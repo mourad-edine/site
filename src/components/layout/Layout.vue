@@ -15,7 +15,7 @@
                                 class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">À 
                                 propos</router-Link>
 
-                            <router-Link to="/service"
+                            <router-Link to="/choix"
                                 class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Services</router-Link>
                             <router-Link to="/contact"
                                 class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</router-Link>
@@ -45,7 +45,7 @@
                             <li>
                                 <router-Link
                                     class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
-                                    to="/service" data-te-dropdown-item-ref>Services</router-Link>
+                                    to="/choix" data-te-dropdown-item-ref>Services</router-Link>
                             </li>
                             <li>
                                 <router-Link
@@ -122,13 +122,13 @@
                     <ul class="list-unstyled list-inline pt-2">
                         <li>
                             <div class="flex mt-2">
-                                <img src="../../images/facebook.png" alt="" class="w-6 h-6"><a href="#"
+                                <img src="../../images/facebook.png" alt="" class="w-6 h-6"><a href="https://www.facebook.com/reflethqd"
                                     class=" text-white ml-1">facebook</a>
                             </div>
                         </li>
                         <li>
                             <div class="flex mt-4">
-                                <img src="../../images/linkedin.png" alt="" class="w-6 h-6"><a href="#"
+                                <img src="../../images/linkedin.png" alt="" class="w-6 h-6"><a href="https://www.linkedin.com/in/eric-florent-raharinirina-2a4594147/?originalSubdomain=mg"
                                 class=" text-white ml-1">linkedin</a>
                             </div>
                         </li>

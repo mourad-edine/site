@@ -1,24 +1,16 @@
 <template>
     <Layout>
         <section id="a-propos">
-            <h1 class="title text-danger">nous contacter</h1>
+            <h1 class="title text-danger">Nous contacter</h1>
             <div class="img-desc">
                 <div class="">
 
                 </div>
                 <div class="right">
                     <h3>Besoin d'aide? Nous sommes là pour vous</h3>
-                    <p>Bienvenue sur notre page de contact chez <span class="text-danger">RefleHQD</span>. Votre
+                    <p>Bienvenue sur notre page de contact chez <span class="text-danger">Refle HQD</span>. Votre
                         satisfaction est notre priorité absolue, et nous sommes là pour répondre à toutes vos questions,
                         préoccupations ou demandes d'assistance.</p>
-                    <div>
-                        <ul>
-                            <li>
-                                <router-Link  to="/" class="btn btn-danger text-white mt-3" style="font-size: 20px;">revenir à
-                                    l'accueil</router-Link >
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 
@@ -26,8 +18,7 @@
 
         <!-- section destination -->
         <section id="contact">
-            <h1 class="title text-danger">form Contact</h1>
-            <form action="">
+            <form action="" class="shadow-lg">
                 <div class="left-right">
                     <div class="left">
                         <label>Nom Complet</label>
@@ -65,7 +56,7 @@ export default {
     }
 
     #contact form {
-        background-color: #e2e8f0;
+        background-color: #fff;
         box-shadow: red;
         margin: auto;
         display: flex;

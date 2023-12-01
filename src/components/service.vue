@@ -46,48 +46,59 @@
 
     <section>
       <h1 class="title" style="margin-left: 170px;">Nos formations</h1>
-      <div class="grid sm:grid-cols-3 ml-10 mr-10 sm:ml-20">
+      <div class="grid sm:grid-cols-2 ml-10 mr-10 sm:ml-20 md:grid-cols-3">
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
-          <img class="w-full" src="../images/OIP.jpg" alt="Sunset in the mountains">
+          <img class="w-full" src="../images/OIP.jpg" alt="Sunset in the mountains" style="height: 256px;" >
           <div class="px-3 py-1">
-            <div class="font-bold text-xl text-red-700">Cours de langues</div>
+            <div class="font-semibold text-xl ">Cours de langues</div>
           </div>
           <div class="">
-            <span
-              class="flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'informatisation</span>
+            <router-Link 
+             to="/langue" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
           </div>
         </div>
 
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
           <img class="w-full" src="../images/infor.jpg" alt="Sunset in the mountains">
           <div class="px-3 py-1">
-            <div class="font-bold text-xl">Programmation informatique</div>
+            <div class="font-semibold text-xl">Programmation informatique</div>
           </div>
           <div class="">
-            <span
-              class="flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">Plus d'information</span>
+            <router-Link 
+             to="/programmation" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
           </div>
         </div>
 
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
-          <img class="w-full" src="../images/word.jpg" alt="Sunset in the mountains">
+          <img class="w-full" src="../images/wor.jpg" alt="Sunset in the mountains" style="height: 256px;">
           <div class="px-3 py-1">
-            <div class="font-bold text-xl">Cours en informatique bureautique</div>
+            <div class="font-semibold text-xl">Cours en informatique bureautique</div>
           </div>
           <div class="">
-            <span
-              class="flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</span>
+            <router-Link 
+             to="/bureautique" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
           </div>
         </div>
 
         <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
           <img class="w-full" src="../images/dev.jpg" alt="Sunset in the mountains">
           <div class="px-3 py-1">
-            <div class="font-bold text-xl">Development personnelle</div>
+            <div class="font-semibold text-xl">Developpment personnelle</div>
           </div>
           <div class="">
-            <span
-              class="flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</span>
+            <router-Link 
+             to="/developpement" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden mb-4 mt-3 shadow-lg">
+          <img class="w-full" src="../images/start.jpg" alt="Sunset in the mountains">
+          <div class="px-3 py-1">
+            <div class="font-semibold text-xl">formation en Entreprenariat</div>
+          </div>
+          <div class="">
+            <router-Link 
+             to="/entrepreneur" class="hover:text-white hover:bg-red-700 transition-all flex justify-center border-1 border-red-700 rounded p-2 text-red-700 font-semibold m-3">plus d'information</router-Link >
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ import Programmation from '../components/infoprogrammation.vue'
 import mission from '../components/missions.vue'
 import valeur from '../components/valeur.vue'
 import application from '../components/Application.vue'
-
+import choix from '../components/choix.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -82,6 +82,12 @@ const router = createRouter({
       path: '/dev',
       name: 'dev',
       component: application
+    },
+
+    {
+      path: '/choix',
+      name: 'choix',
+      component: choix
     },
   ]
 })

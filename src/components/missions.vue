@@ -12,9 +12,7 @@
                         applications sur mesure adaptées aux besoins de ses clients. Pour réaliser à bien ses missions,
                         Reflet HQD a ses propres valeurs ci-après.
                     </h3>
-                    <p class="m-5" style="font-size: 15px;">Reflet HQD est une startup de prestation de service, qui sont la
-                        formation professionnelle et le développement informatique</p>
-                    <router-Link  to="/about" class="rounded border-1 border-red-700 text-red-700 bg-white p-1 mt-5 hover:text-red-800">retour</router-Link >
+
                 </div>
             </div>
 

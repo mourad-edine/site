@@ -12,12 +12,13 @@
                                 class="px-3 py-2 rounded-md text-sm font-medium text-gray-900 bg-gray-100 hover:text-gray-900 hover:bg-gray-200">Accueil</router-Link>
 
                             <router-Link to="/about"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">à propos</router-Link>
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">À 
+                                propos</router-Link>
 
                             <router-Link to="/service"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">services</router-Link>
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Services</router-Link>
                             <router-Link to="/contact"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</router-Link>    
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</router-Link>
                         </div>
                     </div>
                 </div>
@@ -27,25 +28,29 @@
                         <a class="flex items-center whitespace-nowrap rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-gray shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                             href="#" type="button" id="dropdownMenuButton2" data-te-dropdown-toggle-ref
                             aria-expanded="false" data-te-ripple-init data-te-ripple-color="light">
-                            <img src="../../images/menu.png" alt="" class="w-8 h-8"> 
+                            <img src="../../images/menu.png" alt="" class="w-8 h-8">
                         </a>
                         <ul class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
                             aria-labelledby="dropdownMenuButton2" data-te-dropdown-menu-ref>
                             <li>
-                                <router-Link class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark  active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                                <router-Link
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark  active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
                                     to="/" data-te-dropdown-item-ref>Accueil</router-Link>
                             </li>
                             <li>
-                                <router-Link class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark  active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
-                                    to="/about" data-te-dropdown-item-ref>à propos</router-Link>
+                                <router-Link
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark  active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                                    to="/about" data-te-dropdown-item-ref>À propos</router-Link>
                             </li>
                             <li>
-                                <router-Link class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
-                                    to="/service" data-te-dropdown-item-ref>services</router-Link>
+                                <router-Link
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                                    to="/service" data-te-dropdown-item-ref>Services</router-Link>
                             </li>
                             <li>
-                                <router-Link class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
-                                    to="/contact" data-te-dropdown-item-ref>contact</router-Link>
+                                <router-Link
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-dark   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                                    to="/contact" data-te-dropdown-item-ref>Contact</router-Link>
                             </li>
                         </ul>
                     </div>
@@ -55,41 +60,19 @@
         </nav>
     </header>
 
-    <!--------fin
-    
-    <header class="sm:flex">
-        <div class="flex">
-            <p to="/" class="mt-2">RefleHQD</p>
-            <img src="../../images/logo.jpg" alt="" width="40" height="40">
-        </div>
-        <div class="flex">
-            <div>
-                <router-Link to="/" class="p-3 hover:bg-red-700 hover:text-white">Acceuil</router-Link>
-            </div>
-            <div>
-                <router-Link to="/about" class="p-3 hover:bg-red-700 hover:text-white transition-all">à propos</router-Link>
-            </div>
-            <div>
-                <router-Link to="/service" class="p-3 hover:bg-red-700 hover:text-white">nos services</router-Link>
-            </div>
-            <div>
-                <router-Link to="/contact" class="p-3 hover:bg-red-700 hover:text-white">contact</router-Link>
-            </div>
-        </div>
-    </header>-->
+
 
 
     <!-- acceuil section -->
     <section id="home">
-        <h4>THE EXCELENCE <span class="text-red-700"> IS OUR DUTY</span></h4>
-        <p>reussite perceverance polyvalence excelence </p>
-        <p>Nous sommes là pour vous guider dans un monde meilleur</p>
-        <router-Link to="/contact" class="border-1 border-red-300 text-red-300 p-2 mt-5 hover:text-red-400">nous
+        <h4>REFLET <span class="text-red-700"> HQD</span></h4>
+        <h5 class="text-white"><span class="text-red-700">THE EXCELENCE</span> IS OUR DUTY</h5>
+        <router-Link to="/contact" class="border-1 border-red-300 text-red-300 p-2 mt-5 hover:text-red-400">Nous
             contacter</router-Link>
         <div class="find_trip flex justify-evenly text-white">
-            <router-Link to="/about" class="hover:text-white p-1 hover:bg-red-700">historiques</router-Link>
-            <router-Link to="/missions" class="hover:text-white p-1 hover:bg-red-700">nos missions</router-Link>
-            <router-Link to="/valeur" class="hover:text-white p-1 hover:bg-red-700 transition-all">nos valeurs</router-Link>
+            <router-Link to="/about" class="hover:text-white p-1 hover:bg-red-700">Historique</router-Link>
+            <router-Link to="/missions" class="hover:text-white p-1 hover:bg-red-700">Nos missions</router-Link>
+            <router-Link to="/valeur" class="hover:text-white p-1 hover:bg-red-700 transition-all">Nos valeurs</router-Link>
         </div>
     </section>
 
@@ -105,29 +88,56 @@
 
                 </div>
                 <div class="col-7">
-                    <span style="font-weight: bold; color : red">RefletHQD</span> <br>
-                    <p class="text-white">7 rue george washington, Ampasimazava Est</p>
-                    <div class="pt-3">
+                    <span style="font-weight: bold; color : red">Reflet HQD</span>
+                    <br>
+                    <div class="flex mt-2">
+                        <img src="../../images/adress.png" alt="" class="w-6 h-6">
+                        <p class="text-white ml-1">7 rue george washington, Ampasimazava Est</p>
 
-                        <a href="mailto:reflethqd@gmail.com" class="text-white">
-                            reflethqd@gmail.com</a><br>
-                        <p class="text-white">+261 34 98 077 33<br></p>
                     </div>
+                    <br>
+
+                    <div class="flex">
+                        <img src="../../images/gmail.png" alt="" class="w-6 h-6">
+                        <a href="mailto:reflethqd@gmail.com" class="text-white ml-1">
+                            reflethqd@gmail.com
+                        </a>
+                    </div>
+                    <br>
+                    <div class="flex">
+                        <img src="../../images/number.png" alt="" class="w-6 h-6">
+                        <p class="text-white ml-1">+261 34 98 077 33<br></p>
+                    </div>
+
 
                     <div class="mt-4 lien_fb">
                         <h6 class="text-white text-uppercase">Suivez-nous sur les reseau</h6>
-                        <small><br>
-                            <i class="fab fa-facebook mr-2"></i>
-                            <a href="mailto:reflethqd@gmail.com" class="text-info">Reflet HQD</a>
-                        </small>
+                        <br>
+                        <i class="fab fa-facebook mr-2"></i>
+                        <a href="mailto:reflethqd@gmail.com" class="text-info">Reflet HQD</a>
                     </div>
                 </div>
                 <div class="col-3 " id="partenaire">
                     <span style="font-weight: bold;color : red">reseau sociaux</span>
                     <ul class="list-unstyled list-inline pt-2">
-                        <li><a href="#" class=" text-white">facebook</a></li>
-                        <li><a href="#" class=" text-white">twitter </a></li>
-                        <li><a href="#" class=" text-white">linkedin</a></li>
+                        <li>
+                            <div class="flex mt-2">
+                                <img src="../../images/facebook.png" alt="" class="w-6 h-6"><a href="#"
+                                    class=" text-white ml-1">facebook</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex mt-4">
+                                <img src="../../images/linkedin.png" alt="" class="w-6 h-6"><a href="#"
+                                class=" text-white ml-1">linkedin</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex mt-4">
+                                <img src="../../images/whatsapp.png" alt="" class="w-6 h-6"><a href="#"
+                                class=" text-white ml-1">Whatsapp</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -185,6 +195,7 @@ a.router-link-active {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 a {
@@ -226,10 +237,10 @@ section {
 /* Home acceuil CSS */
 
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), #333), url("../../images/mr.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #333), url("../../images/cop.jpg");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
